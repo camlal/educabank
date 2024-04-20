@@ -37,13 +37,11 @@ header { /*Chamamos nosso Header para estilização*/
     margin-left: 20px; /*Margem a esquerda para espaçamento*/
 }
 
-
 #sessao { /*Aqui chamamos nosso primeiro ID para estilização*/
     padding: 30vh; /*Atribuimos um tamanho de preenchimento  -- podemos usar 200px*/
     background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%); /*Uma cor com Degradê*/
     flex-wrap: wrap; /*Usado para informar que os itens podem quebrar em telas menores*/
 }
-
 
 #sessao > h1 { /*Alterando nosso Título*/
     font-size: 45px; /*Tamanho da letra*/
@@ -81,16 +79,12 @@ header { /*Chamamos nosso Header para estilização*/
     transition: 0.8s;
 }
       
-
-
-
 #app { /*Aqui chamamos nosso segundo ID da página*/
     padding: 30vh; /*Atribuimos um tamanho para o preenchimento --  podemos usar 170px*/
     background-color: rgb(226, 233, 233); /*cor de fundo*/
     display: flex;
     justify-content: space-around;
 }
-
 
 #app > div > button { /*Aqui chamamos nosso botão para estilização*/
     padding: 20px; /*Preenchimento do nosso botão*/
@@ -102,7 +96,6 @@ header { /*Chamamos nosso Header para estilização*/
     font-size: 15px; /*Tamanho da letra dentro do Button*/
     cursor: pointer;
 }
-
 
 #app > div > p{ /*Chamamos nosso Parágrafo para estilização*/
     font-size: 43px; /*Alteração do tamanho da letra*/
@@ -126,18 +119,12 @@ header { /*Chamamos nosso Header para estilização*/
     transition: 0.8s;
 }
 
-
-
 #app > div img { /*Imagem que está dentro da nossa segunda Section*/
     width: 30vw; /*Lagura da nossa img*/
     height: 60vh; /*Altura da nossa img*/
     margin-left: 50px; /*Margem a Esquerda*/
     margin-top: -70px; /*Margem a Direita*/
 }
-
-
-
-
 
 #container { /*Aqui chamamos nossa terceira section da página*/
     padding: 30vh; /*Atribuimos um preenchimento*/
@@ -171,9 +158,7 @@ header { /*Chamamos nosso Header para estilização*/
     border-color: rgb(50, 50, 226); /*Cor da borda*/
     margin: 60px; /*Margem em torno no botão*/
     font-size: 15px; /*Tamanho da letra*/
-    
 }
-
 
 #container button a {
     color: blue;
@@ -214,7 +199,6 @@ header { /*Chamamos nosso Header para estilização*/
    justify-content: space-evenly;
 }
 
-
 #container-cofre img { /*Chamamos nossa IMG para estilização*/
     width: 25vw; /*Largura da img*/
     margin-top: 10rem; /*Margem superior*/
@@ -237,10 +221,6 @@ header { /*Chamamos nosso Header para estilização*/
    
 }
 
-
-
-
-
 footer { /*Aqui começamos a estilização do Rodapé*/
     padding: 13vh; /*Preenchimento do Rodapé*/ 
     background-color: rgb(29, 28, 28); /*Cor de fundo*/
@@ -255,13 +235,11 @@ footer img { /*Trabalhando nas IMG dentro do Footer*/
     margin-bottom: 20px;
 }
 
-
 .footer-div {
     display: flex;
     justify-content: space-between;
     margin: 20px 0px; 
 }
-
 
 .footer-div a {
     text-decoration: none;
@@ -274,4 +252,58 @@ footer img { /*Trabalhando nas IMG dentro do Footer*/
 .footer-div a:hover {
     color: crimson;
     transition: 0.5s;
+}
+
+@media screen and (max-width:1920px){
+    
+}
+
+@media screen and(max-width:1366px) {
+    
+}
+
+@media screen and (max-width: 991px) {
+    #sessao button{
+        width: 14rem;
+        padding: 0.9rem;
+    }
+    
+    #sessao p{
+        font-size: 1.5rem;
+        margin: 15px 0;
+    }
+
+    #app div button{
+        width: 20rem;
+        padding: 0.9;
+    }
+
+    #app{
+        padding: 30vh;
+    }
+
+    #app div p{
+        font-size: 1.8rem;
+    }
+
+    #app div img{
+        width: 18rem;
+        height: auto;
+        margin-right: 20px;
+    }
+
+    #conteiner{
+        padding: 35vh;
+    }
+    #conteiner h2{
+        
+    }
+}
+
+@media screen and (max-width:767px) {
+    
+}
+
+@media screen and (max-width:480px) {
+     
 }
