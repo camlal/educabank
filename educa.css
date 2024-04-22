@@ -262,7 +262,8 @@ footer img { /*Trabalhando nas IMG dentro do Footer*/
     
 }
 
-@media screen and (max-width: 991px) {
+
+@media screen and (max-width: 1095px) {
     #sessao button{
         width: 14rem;
         padding: 0.9rem;
@@ -295,9 +296,22 @@ footer img { /*Trabalhando nas IMG dentro do Footer*/
     #conteiner{
         padding: 35vh;
     }
-    #conteiner h2{
-        
+
+    #container img { 
+        margin-left: 5vw; 
     }
+
+    footer img { 
+        width: 15.5rem;
+    }
+
+    .footer-div {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 991px) { 
+    
 }
 
 @media screen and (max-width:767px) {
