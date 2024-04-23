@@ -199,21 +199,20 @@ header { /*Chamamos nosso Header para estilização*/
    justify-content: space-evenly;
 }
 
-#container-cofre img { /*Chamamos nossa IMG para estilização*/
+#container-cofre div img { /*Chamamos nossa IMG para estilização*/
     width: 25vw; /*Largura da img*/
     margin-top: 10rem; /*Margem superior*/
     height: auto;
     flex-wrap: wrap; /*Usado para informar que os itens podem quebrar em telas menores*/
 }
 
-#container-cofre h2 { /*Chamamos nossa TAG H2 para estilização*/
-    
+#container-cofre div h2 { /*Chamamos nossa TAG H2 para estilização*/
     color: white; /*Cor da letra*/
     font-size: 30px; /*Tamanho da letra*/
     text-align: center;
 }
 
-#container-cofre p { /*Nossa Tag de parágrafo para estilização*/
+#container-cofre div p { /*Nossa Tag de parágrafo para estilização*/
     color: white; /*Cor da letra*/
     font-size: 17px; /*Tamanho da letra*/
     text-align: center;
@@ -277,33 +276,42 @@ footer img { /*Trabalhando nas IMG dentro do Footer*/
         padding: 28vh;
     }
     
-    #sessao button{
-        width: 14rem;
+    #sessao > button{
+        width: 15rem;
         padding: 0.9rem;
     }
+
+    #sessao > button a { 
+        font-size: 14px; 
+    }
+
     #sessao > h1 {
         font-size: 43px; 
     }
 
-    #sessao p{
-        font-size: 1.5rem;
+    #sessao > p{
+        font-size: 2rem;
         margin: 15px 0;
     }
 
-    #app div button{
-        width: 20rem;
+    #app > div > button{
+        width: 16rem;
         padding: 0.9;
+    }
+
+    #app > div > button > a {
+        font-size: 14px; 
     }
 
     #app{
         padding: 30vh;
     }
 
-    #app div p{
+    #app > div > p{
         font-size: 1.8rem;
     }
 
-    #app div img{
+    #app > div > img{
         width: 18rem;
         height: auto;
         margin-right: 20px;
@@ -317,21 +325,45 @@ footer img { /*Trabalhando nas IMG dentro do Footer*/
         margin-left: 5vw; 
     }
 
+    footer {
+        padding: 5vh;
+    }
+
     footer img { 
-        width: 15.5rem;
+        width: 10rem; 
+        height: 2.5rem; 
+        margin-top: -1rem;
+        margin-bottom: 12px;
     }
 
     .footer-div {
         justify-content: space-between;
+        margin: 15px auto;
+    }
+
+    .footer-div a {
+        font-size: 10px;
+    }
+    .footer-div p {
+        font-size: 10px;
     }
 }
 
 @media screen and (max-width: 991px) { 
     
+    #app div p {
+        font-size: 1.5rem
+    }
+    
+    #container-cofre div p {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width:767px) {
-    
+    #app div p {
+        font-size: 35px;
+    }
 }
 
 @media screen and (max-width:480px) {
