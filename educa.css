@@ -266,7 +266,7 @@ footer img { /*Trabalhando nas IMG dentro do Footer*/
 @media screen and (max-width: 1095px) {
     #sessao button{
         width: 14rem;
-        padding: 0.9rem;
+        padding: 0.5rem;
     }
     
     #sessao p{
