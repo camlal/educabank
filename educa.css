@@ -264,11 +264,27 @@ footer img { /*Trabalhando nas IMG dentro do Footer*/
 
 
 @media screen and (max-width: 1095px) {
-    #sessao button{
-        width: 14rem;
-        padding: 0.5rem;
+    
+    header {
+        padding: 6vh;
+    }
+
+    .menu-header li a{
+        font-size: 11px;
+    }
+
+    #sessao {
+        padding: 28vh;
     }
     
+    #sessao button{
+        width: 14rem;
+        padding: 0.9rem;
+    }
+    #sessao > h1 {
+        font-size: 43px; 
+    }
+
     #sessao p{
         font-size: 1.5rem;
         margin: 15px 0;
